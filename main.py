@@ -1,16 +1,19 @@
 import pandas as pd
 import numpy as np
-
-
+import matplotlib.pyplot as plt
+import seaborn as sns
 import streamlit as st
-
+import plotly.offline as pyo
+import plotly.graph_objs as go
+import plotly.express as px
+import plotly.figure_factory as ff
 
 # df = pd.read_excel("Billet Macro report sms3 september.xlsx")
 # print(df)
 # sns.distplot(df["Diagonal Difference ( mm)"] )
 # plt.xticks(rotation=90)
 # plt.show()
-#figure= plt.figure()
+figure= plt.figure()
 import streamlit as st
 #function
 
@@ -111,7 +114,8 @@ def main():
 
                
 
-main()           
+main()            # entity = ["Grade","Name of Internal Crack","crack length ","No.of crack","Diameter of piping in MM","Diagonal Difference ( mm)"]
+            # parameter = st.radio("Select the parameters you want to plot",options=entity)
             
            
                     
