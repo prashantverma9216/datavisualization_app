@@ -3,10 +3,7 @@ import numpy as np
 
 
 import streamlit as st
-import plotly.offline as pyo
-import plotly.graph_objs as go
-import plotly.express as px
-import plotly.figure_factory as ff
+
 
 # df = pd.read_excel("Billet Macro report sms3 september.xlsx")
 # print(df)
