@@ -10,7 +10,7 @@ import streamlit as st
 # sns.distplot(df["Diagonal Difference ( mm)"] )
 # plt.xticks(rotation=90)
 # plt.show()
-figure= plt.figure()
+#figure= plt.figure()
 import streamlit as st
 #function
 
