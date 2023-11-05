@@ -28,7 +28,7 @@ def main():
         files_name =[]
         if files:
             for file in files:
-                files_name.append(file.name)
+                files_name.append(file)
         selected_files = st.multiselect("You can select multiple files",options=files_name)
         if selected_files:
             for file in files_name:
